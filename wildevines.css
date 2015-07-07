@@ -18,8 +18,37 @@ body {
 }
 
 .avi {
-	opacity: 1;
-	filter: alpha(opacity=100); /* For IE8 and earlier */
+	display: inline block;
+}
+
+h2 {
+	float: left;
+}
+
+.avi img {
+	max-width: 25%;
+}
+
+#email {
+	max-width: 3%;
+	margin-right: 2%;
+}
+
+#contact {
+	margin-left: 3%;
+	margin-top: 3%;
+}
+
+#facebook {
+	max-width: 3%;
+	margin-right: 2%;
+	margin-top: 1%;
+}
+
+#calendar {
+	max-width: 3%;
+	margin-right: 2%;
+	margin-top: 1%;
 }
 
 /* Nav bar
