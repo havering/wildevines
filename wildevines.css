@@ -12,22 +12,46 @@ body {
 
 }
 
+html, body { 
+	height: 100%; width: 100%; margin: 0; 
+}
+
 .jumbotron {
 	background-color: rgba(255,255,255,0.75);
 	filter: alpha(opacity=75); /* For IE8 and earlier */
+ 	height: 25%;
+
 }
 
-.avi {
-	display: inline block;
-}
+/*.inner {
+	padding-bottom: 13%;
+}*/
 
 h2 {
 	float: left;
 }
 
-.avi img {
-	max-width: 25%;
+
+/* About page styling
+------------------------- */
+
+.avi {
+	display: inline block;
 }
+
+.avi img {
+	max-width: 12%;
+}
+
+#aboutmedia {
+	max-height: 200px;
+	float: left;
+	margin-right: 1%;
+	margin-bottom: 1%;
+}
+
+/* Contact page styling
+------------------------- */
 
 #email {
 	max-width: 3%;
@@ -134,10 +158,4 @@ h2 {
 /* Images 
 ------------------------- */
 
-#aboutmedia {
-	max-height: 200px;
-	float: left;
-	margin-right: 1%;
-	margin-bottom: 1%;
-}
-}
+
